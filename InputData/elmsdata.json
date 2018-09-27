@@ -1,0 +1,58 @@
+{
+
+    "AppInputData":{
+        "LoginData":{
+            "username":"admin@gmail.com",
+            "password":"wyuiefjoskdlc"
+        },
+        "InvalidUser":{
+            "username":"admigmail.com",
+            "password":"eiwjosdmkl"
+        },
+        "Invalidpswd":{
+            "username":"admin@gmail.com",
+            "password":"qwdscx"
+        },
+        "Emptypswd":{
+            "username":"admin@gmail.com"
+        
+        },
+        "Invaliduserpswd":{
+            "username":"admi@gmail.com",
+            "password":"qwrefdc"
+        },
+        "Organization":{
+            "name":"Wings",
+            "code":"1234",
+            "Mobilenumber":"9988776655",
+            "emailid":"qa@qa.com",
+            "searchaddress":"CloudNow",
+            "address_indexvalue":"1",
+            "domain_name":"www.wings.com"
+        },
+        "Roles":{
+            "rolename":"Software Testing",
+            "description":"Tester"
+        },
+        "Users":{
+            "name":"Test",
+            "upswd":"ewfsc@1",
+            "fname":"Mike",
+            "lname":"Thrill",
+            "emailadd":"cfm@qa.com",
+            "searchaddress":"Ben",
+            "address_indexvalue":"1",
+            "contact":"7766554433",
+            "descr":"softwareEngineering"
+        },
+        "Courses":{
+            "coursename":"Algebra",
+            "description":"Recognizing and Developing patterns using tables, graphs and equations",
+            "topicname":"Geometry",
+            "topiccode":"Geo_1234",
+            "desc":"Geometric figures in two and three dimensions.It includes the study of transformations and right triangle Trigonometry"
+        }
+       
+    }
+    
+    }
