@@ -1,0 +1,82 @@
+{
+    "ElmsLocators":
+{
+    "URL" : "",                
+
+    "LoginDetails":{
+        "username": "emailId",
+        "password": "mat-input-1",
+        "Login":"button[class='login-btn mat-raised-button mat-primary-btn']"
+    },
+    "Invaliduser":{
+        "emailerrormsg":"//div[@class='inline-error ng-star-inserted']"
+    },
+    "Invalidpswd":{
+        "pswderrormsg":"//div[@class='cdk-overlay-container']"
+    },
+    "EmptyPswd":{
+             "Pswdreq":"//div[@class='ng-star-inserted']"
+    },
+    "Invaliduserpswd":{
+        "Errormsg":"//div[@class='cdk-overlay-container']"
+        },
+    
+    "Admin":{
+        "profile":"//button[@class='mat-icon-button']",
+        "AdminPanel":"//button[@tabindex='0'][2]"
+    },
+    "Organization":{
+        "clicklink":"//mat-card[@routerlink='/admin/organisation/browse']",
+        "addOrganization":"//button[@class='primary-btn mat-raised-button mat-primary']",
+        "Organizationname":"mat-input-3",
+        "OrgCode":"code",
+        "selectOrg":"//div[@class='mat-form-field-infix']/mat-select",
+        "parentorg":"//mat-option[3]",
+        "phonenumber":"mat-input-5",
+        "emailid":"mat-input-6",
+        "searchaddress":"search_places",
+        "domainname":"//input[@name='domainName']",
+        "uploadbanner":"//input[@id='inputGroupFile04']"
+        
+        
+    },
+    "Roles":{
+        "clickrole":"//a[@href='#/admin/role/browse']",
+        "addrole":"//button[@class='primary-btn mat-raised-button mat-primary']",
+        "rolename":"//input[@class='mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid']",
+        "desc":"//div[@class='mat-form-field-infix']/textarea"
+        
+    },
+    "User":{
+        "clickuser":"//mat-card[@routerlink='/admin/user/browse']",
+        "adduser":"//button[@class='primary-btn mat-raised-button mat-primary']",
+        "name":"//input[@placeholder='User Name']",
+        "pswd":"//input[@placeholder='Password']",
+        "fname":"//input[@placeholder='First Name']",
+        "lname":"//input[@placeholder='Last Name']",
+        "email":"//input[@placeholder='Email Address']",
+        "searchaddress":"search_places",
+        "mobilenum":"//input[@placeholder='Contact']",
+        "description":"//textarea[@name='Description']"
+    },
+    "Courses":{
+        "clickcourse":"//mat-card[@routerlink='/admin/category/browse']",
+        "addcour":"//button[@routerlink='/admin/category/add']",
+        "parntcours":"//mat-select[@placeholder='Parent Course']",
+        "selectcours":"//mat-option[@ng-reflect-value='4']",
+        "coursename":"//input[@placeholder='Course Name']",
+        "descr":"//textarea[@placeholder='Description']"
+    },
+    "Topics":{
+        "clicktopic":"//mat-card[@routerlink='/admin/course/browse']",
+        "addtopic":"//button[@routerlink='/admin/course/add']",
+        "topicname":"//input[@placeholder='Topic Name']",
+        "tpccode":"//input[@placeholder='Topic Code']",
+        "tpcdesc":"//textarea[@placeholder='Description']"
+    }
+
+}
+    }
+
+
+
